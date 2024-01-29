@@ -19,9 +19,18 @@ function App() {
         >
           Learn React
         </a>
-        <ButtonComponent nameToShow="Scopri di più" />
-        <ButtonComponent nameToShow="Richiedi preventivo" />
-        <ImageComponent imageSrc="https://placedog.net/400" imageAlt="cane" />
+        <div className="divButton">
+          <ButtonComponent className="bottone1" nameToShow="Scopri di più!" />
+          <ButtonComponent
+            className="bottone2"
+            nameToShow="Richiedi preventivo"
+          />
+        </div>
+        <ImageComponent
+          imageSrc="https://placedog.net/400"
+          imageAlt="cane"
+          className="img"
+        />
       </header>
     </div>
   );
