@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ButtonComponent from "./ButtonComponent";
+import ImageComponent from "./ImageComponent";
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <ButtonComponent nameToShow="Scopri di più" />
+        <ButtonComponent nameToShow="Richiedi preventivo" />
+        <ImageComponent imageSrc="https://placedog.net/400" imageAlt="cane" />
       </header>
     </div>
   );
